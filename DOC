@@ -1,17 +1,3 @@
-package main
-
-import "fmt"
-
-func main() {
-	//Aquí el tipo no es necesario porque se "infiere"
-	//var card string = "Ace of Spades"
-	//var card = "Ace of Spades"
-	card := "Ace of Spades"
-	card = "Five of Diamonds"
-
-	fmt.Println(card)
-}
-
 /**
 
 Declarar el tipo de la variable explicitamente:
