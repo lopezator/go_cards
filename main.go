@@ -1,7 +1,7 @@
 package main
 
-func main() {
-	cards := newDeck()
 
-	cards.print()
+func main() {
+	deck := newDeck()
+	deck.saveToFile("my_cards")
 }
